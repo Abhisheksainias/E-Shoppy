@@ -1,0 +1,683 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+.header-top {
+  display: flex;
+  background-color: #f0f0e9;
+}
+
+/* <===================================== HEADER START HERE============================================> */
+
+/*<-------------------------- HEADER Top-Left  Part  Start Here ------------------------->*/
+.header-top-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-solid {
+  font-size: 13px;
+  color: #696763;
+  margin: 0 3px;
+}
+.fa-phone {
+  rotate: 13deg;
+}
+
+.header-top-left span {
+  font-size: 12px;
+  color: #696763;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-top-left span :first-child {
+  /* margin-right: 20px; */
+}
+/*<-------------------------- HEADER Top-Left  Part  End Here ------------------------->*/
+
+/*<-------------------------- HEADER Top-Right  Part  Start Here ------------------------->*/
+
+.header-top-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-top-right ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-top-right ul li {
+  margin: 0 5px;
+}
+
+.header-top-right ul li a {
+  text-decoration: none;
+  color: #696763;
+  font-size: 14px;
+  display: inline-block;
+}
+.header-top-right ul li a i {
+  padding: 9px 13px;
+}
+.header-top-right ul li a:hover > .fa-facebook-f {
+  background-color: #0083c9;
+  color: #fff;
+}
+.header-top-right ul li a:hover > .fa-twitter {
+  background-color: #5bbcec;
+  color: #fff;
+}
+.header-top-right ul li a:hover > .fa-linkedin-in {
+  background-color: #ff4518;
+  color: #fff;
+}
+.header-top-right ul li a:hover > .fa-instagram {
+  background-color: #f46ef6;
+  color: #fff;
+}
+.header-top-right ul li a:hover > .fa-google-plus-g {
+  background-color: #ce3c2b;
+  color: #fff;
+}
+
+/*<-------------------------- HEADER Top-Right  Part  End Here ------------------------->*/
+
+/*<-------------------------- HEADER Middle-Left  Part  Start Here ------------------------->*/
+
+.header-middle {
+  display: flex;
+  width: 1180px;
+  height: 100px;
+  margin: auto;
+  border-bottom: 1px solid rgba(238, 230, 230, 0.382);
+}
+
+.middle-left,
+.middle-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.middle-left {
+  margin-right: 20px;
+  margin-left: -165px;
+}
+.logo img {
+  /* width: 150px; */
+  margin-bottom: 10px;
+  margin-right: 6px;
+}
+.middle-left select {
+  margin: 0 3px;
+  color: #696763;
+}
+.middle-left .sel {
+  margin-left: 15px;
+}
+/*<-------------------------- HEADER Middle-Left  Part  End Here ------------------------->*/
+
+/*<-------------------------- HEADER Middle-Right  Part  Start Here ------------------------->*/
+
+.middle-right {
+  margin-right: -100px;
+}
+
+.middle-right ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-right ul li {
+  margin: 0 16px;
+}
+.middle-right ul li a i {
+  /* font-size: 12px; */
+}
+
+.middle-right ul li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #696763;
+  display: inline-block;
+}
+/* .middle-right ul li :hover> a{
+  color: #fd970f;
+} */
+/*<-------------------------- HEADER Middle-Right  Part  End Here ------------------------->*/
+
+/*<-------------------------- HEADER Bottom-Left  Part  Start Here ------------------------->*/
+
+.header-bottom {
+  display: flex;
+  width: 1180px;
+  margin: auto;
+  height: 100px;
+}
+.bottom-left,
+.bottom-right {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-left ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  line-height: 100px;
+  /* margin-left: -130px; */
+  margin-right: 18%;
+}
+.bottom-left ul li {
+  margin: 0 15px;
+}
+.bottom-left ul li a {
+  text-decoration: none;
+  color: #696763;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+}
+.bottom-left ul li:hover > a {
+  cursor: pointer;
+  color: #fd970f;
+}
+
+/*<-------------------------- HEADER Bottom-Left  Part  End Here ------------------------->*/
+
+/*<-------------------------- HEADER Bottom-Right  Part  Start Here ------------------------->*/
+.bottom-right {
+  line-height: 100px;
+}
+.bottom-right input {
+  padding: 7px 10px;
+  border: none;
+  background-color: #f0f0e9;
+  width: 150px;
+  position: relative;
+  right: -68%;
+}
+.bottom-right img {
+  position: relative;
+  right: -63.5%;
+}
+/*<-------------------------- HEADER Bottom-Right  Part  End Here ------------------------->*/
+/*<===================================== HEADER END HERE =====================================>*/
+
+/*<============================ Main Content Styling ==================================>*/
+
+/* <---------------------First Content -----------------------> */
+.container {
+  position: relative;
+  width: 1180px;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+.first-container {
+  display: flex;
+  width: 1180px;
+  margin: auto;
+  position: relative;
+}
+/* <------------------------First - container Left Part Start Here ----------------------> */
+.first-container .left-container {
+  flex: 1;
+  display: inline-block;
+  justify-content: start;
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 7.5rem;
+}
+.first-container .left-container h1 {
+  color: #aca9a2d9;
+  font-size: 3rem;
+  margin-left: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.first-container .left-container h2 {
+  font-size: 2rem;
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+}
+.first-container .left-container .e {
+  color: #fd970f;
+}
+.first-container .left-container p {
+  font-family: "poppins", sans-serif;
+  font-weight: 300;
+}
+.first-container .left-container button {
+  border: none;
+  background-color: #fd970f;
+  color: white;
+  font-size: 15px;
+  padding: 6px 14px;
+  margin-top: 10px;
+}
+
+/* <------------------------First - container Left Part End Here ----------------------> */
+
+/* <------------------------First - container Right Part Start Here ----------------------> */
+
+.first-container .right-container {
+  flex: 1;
+  /* border: 3px solid chartreuse; */
+  position: relative;
+  height: auto;
+  padding: 30px 0px;
+}
+.first-container .right-container .fa-solid {
+  position: absolute;
+  font-size: 48px;
+  color: #c2c2c1;
+}
+.first-container .right-container .fa-solid:hover {
+  cursor: pointer;
+}
+.fa-chevron-left {
+  position: absolute;
+  top: 50%;
+  font-size: 42px;
+
+}
+.fa-chevron-left:hover{
+  color: #fd970f;
+}
+.fa-chevron-right {
+  position: absolute;
+  font-size: 42px;
+  top: 50%;
+  right: 10px;
+}
+.fa-chevron-right:hover{
+  color: #fd970f;
+}
+.first-container .right-container .poster {
+  /* border: 1px solid black; */
+}
+.first-container .right-container .pricing {
+  position: absolute;
+  bottom: 40px;
+  left: 55px;
+}
+
+/* <------------------------First - container Right Part End Here ----------------------> */
+
+.slide {
+  display: flex;
+  position: absolute;
+  /* bottom: 10px; */
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.box {
+  /* border: 1px solid black; */
+  height: 10px;
+  width: 10px;
+  margin: 3px;
+  background-color: #c2c2c1;
+  border-radius: 100px;
+}
+.box:hover{
+background-color: #fd970f;
+cursor: pointer;
+}
+
+/*<------------------------Container_Three Part Start Here ---------------------->  */
+
+.container_three{
+  display: flex;
+  margin-top: 18px;
+}
+.left_three{
+  /* border: 1px solid #ff4518; */
+  width: 30%;
+  /* margin: 5px 10px; */
+}
+.right_four{
+  /* border: 1px solid #ce3c2b; */
+  width: 70%;
+}
+.container_three h1{
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #fd970f;
+  font-weight: 550;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin: 10px;
+}
+.menu_one{
+  /* margin: 5px 10px; */
+  margin: auto;
+  border: 1px solid #dddcda77;
+  width: 85%;
+  /* margin-left: 50px; */
+  padding-left: 15px;
+}
+.menu_one ul{
+  list-style: none;
+  justify-content: center;
+}
+.menu_one ul li{
+  margin: 12px 10px;
+  line-height: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu_one ul li a{
+  text-decoration: none;
+  color: #686762;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 550;
+}
+.menu_one ul li span i{
+  margin-right: 20px;
+  color: #686762;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.menu_one ul li span i:hover{
+  cursor: pointer;
+}
+
+/* <----------------------------------MENU TWO START --------------------------> */
+.container_three .brand{
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #fd970f;
+  font-weight: 550;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin: 30px 0;
+
+}
+.menu_two{
+  /* margin: 5px 10px; */
+  margin: auto;
+  border: 1px solid #dddcda77;
+  width: 85%;
+  /* margin-left: 50px; */
+  padding-left: 15px;
+}
+.menu_two ul{
+  list-style: none;
+  justify-content: center;
+}
+.menu_two ul li{
+  margin: 12px 10px;
+  line-height: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu_two span{
+  margin-right: 20px;
+  color: #9c9b94;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+
+}
+.menu_two ul li a{
+  text-decoration: none;
+  color: #9c9b94;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+
+
+}
+
+
+/* <----------------------------------MENU TWO END --------------------------> */
+/*<------------------------Container_Three Part End  Here ---------------------->  */
+
+
+.right_four .card_group{
+  display: flex;
+}
+.right_four .card_group .card1{
+  flex: 1;
+  border: 1px solid #dddcda77;
+  width: 20%;
+  /* height: 325px; */
+  margin: 5px 8px;
+  
+}
+.card1 img{
+  width: 100%;
+    height: 250px;
+  }
+  .card1 p{
+    text-align: center;
+}
+.card1 span{
+  background-color: #F0F0E9;
+  margin-left: 80px;
+  
+}
+.card1 a{
+  color: black;
+  /* text-align: center; */
+}
+.card1:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 2px 3px #dddcda77;
+}
+/*<------------------------Container_Four Part End Here ---------------------->*/
+
+/* <-----------------------------FOOTER START -------------------------------->*/
+.footer_top{
+  width: 100%;
+  height: 500px;
+  background-color: #EFEFE8;
+}
+.footer_top_upper{
+  display: flex;
+  height: 45%;
+  padding-top: 40px;
+  width:95%;
+  margin: auto;
+  border-bottom: 2px solid #FAFAFA;
+}
+.footer_top_one{
+  color: #aca9a2d9;
+  width: 350px;
+  padding-left: 7rem;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+.footer_top_one p{
+  font-size: 15px;
+}
+.footer_top_one .e{
+  color: #fd970f;
+}
+.footer_top_two{
+ 
+  width: 40%;
+  margin: auto;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.footer_top_two img{
+  margin-top: 10px;
+  border: 1px solid #C7C8C1;
+  justify-content: space-between;
+  margin-right: 8px;
+  width: 150px;
+  display: flex;
+  
+}
+.frame{
+  display: flex;
+justify-content: space-evenly;
+}
+.frame span p{
+  margin-top: 10px;
+}
+.frame p{
+  text-align: center;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #75786f;
+}
+.footer_top_three{
+  margin: auto;
+  position: relative;
+}
+.footer_top_three img{
+  display: flex;
+  margin: auto;
+  width: 300px;
+  height: 150px;
+}
+.footer_top_three p{
+  position:absolute;
+  bottom: 45%;
+  font-size: 18px;
+  color: #75786f;
+}
+
+/* <------------------------------------FOOTER UPPER END --------------------------> */
+
+
+/* <------------------------------------FOOTER LOWER START --------------------------> */
+.footer_top_lower .about{
+  /* border-top: 1px solid #000; */
+  /* top: 10px; */
+  display: flex;
+  margin: 10px 113px;
+}
+.about .panal{
+  flex: 1;
+}
+.panal h1{
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 18px;
+  color: #726f6d;
+  text-transform: uppercase;
+  font-weight: 550;
+  font-family: "Poppins", sans-serif;
+}
+
+.panal ul{
+  list-style: none;
+}
+.panal ul li{
+  margin: 5px 0;
+}
+.panal ul li a{
+  text-decoration: none;
+  color: #9c9b94;
+  display: inline-block;
+}
+.panal ul li a:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.panal5 input{
+  border: none;
+  /* width: 15%px; */
+  padding: 6px 8px;
+  padding-right: 50px;
+  font-family: "roboto", sans-serif;
+
+}
+.panal5 button{
+  background-color: #fd970f;
+  border:none;
+}
+.panal5 button i{
+  color: white;
+  padding: 6px 8px;
+}
+.panal5 p{
+  color: #9c9b94;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+/* <------------------------------------FOOTER LOWER END --------------------------> */
+
+/* <--------------------------------FOOTER BOTTOM------------------------------------> */
+.footer_bottom{
+  height: 40px;
+  background-color: #D6D6D0;
+  bottom: 0;
+  display: flex;
+}
+.footer_bottom-left,
+.footer_bottom-right{
+flex: 1;
+/* justify-content: center;
+align-items: center; */
+margin: auto;
+font-family: "Montserrat", sans-serif;
+}
+.footer_bottom-left{
+  margin-left: 10%;
+  display: inline;
+}
+.footer_bottom-left p{
+  color: #535252;
+}
+.footer_bottom-right{
+  display: flex;
+}
+.footer_bottom-right span{
+  color: #fd970f;
+  margin-right: 3px;
+}
+.footer_bottom-right p{
+  color: #535252;
+}
+.button button{
+  border: none;
+  background-color: #fd970f;
+
+}
+.button i{
+  color: white;
+  padding: 13px 5px;
+  
+}
+
+
+
+
+/* <-----------------------------FOOTER END -------------------------------->*/
+
